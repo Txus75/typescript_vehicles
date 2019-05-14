@@ -22,6 +22,10 @@ class Car {
         this.wheels.push(wheel);
     }
 
+    deleteWheel(): void {
+        this.wheels = [];
+    }
+
     showWheels(): Wheel[] {
         return this.wheels;
     }
